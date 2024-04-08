@@ -35,7 +35,7 @@
         .lab-name a {
             color: white;
         }
-        #about {
+        #news {
             text-align: center;
             margin: 20px 0;
             width: 80%;
@@ -43,27 +43,37 @@
             margin-right: auto;
         }
 
-        #about h2 {
+        #news h2 {
             margin-top: 0;
             font-size: 24px;
             font-weight: bold;
         }
-        #about h3 {
-            margin-top: 0;
+        #news h3 {
+            margin-top: 5px;
             font-size: 20px;
             text-align: left;
             margin-left: 200px;
             position: relative;
         }
-        #about h3::before {
+        #news h3::before {
             content: "\25A0"; /* 黒い四角のUnicodeコード */
             margin-right: 5px; /* 黒い四角とテキストの間隔を調整 */
             color: black; /* 黒い四角の色 */
         }
-        #about p {
+
+        #news h4 {
+            margin-top: 5px;
+            font-size: 20px;
             text-align: left;
-            margin-left: 100px;
+            margin-left: 200px;
+            position: relative;
+        }
+        #news p {
+            text-align: left;
+            margin-left: 200px;
             margin-bottom: 10px;
+            position: relative;
+            font-size: 18x;
         }
         footer {
             text-align: center;
@@ -75,14 +85,7 @@
             width: 100%;
             margin-top: 20px;
         }
-        #map {
-            width: 80%;
-            margin: 0 auto;
-            height: 400px;
-            overflow: hidden;
-            margin-top: 20px;
-            margin-bottom: 30px;
-        }
+
     </style>
 </head>
 <body>
@@ -95,17 +98,17 @@
     <a href="publication.html">Publication</a>
     <a href="access.html">Access</a>
 </header>
-<div id="about">
-    <h2>研究室紹介</h2>
-    <p><b>京都工芸繊維大学 情報工学課程・専攻 知能ソフトウェア工学研究室です.</b><br><br>
-        近年，多くの開発者がすでに人工知能（AI）搭載のコーディングツールを活用したり，開発向けのAIツールに対して好意的な意見を持つなど，AI技術の普及とともに，ソフトウェア開発のパラダイムが大きく変化しています．当研究室では，ソフトウェア工学と人工知能の両者に焦点を当て，AIを利用したソフトウェアシステムを実現するための新しい工学技術およびツールの開発に関する研究と，AI技術を用いて従来のシステムエンジニアリング実践を自動化する研究を行っています．
-    </p>
 
+<div id="news">
+    <h2>最新ニュース</h2>
+    <h3>2023年度</h3>
+    <p>京都工芸繊維大学  知能ソフトウェア工学研究室が新設されました．(2024年3月1日) </p>
 </div>
+
+
 
 
 <footer>© Intelligent Software Engineering Lab 2024</footer>
 
 </body>
 </html>
-

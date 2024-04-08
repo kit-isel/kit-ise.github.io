@@ -35,7 +35,7 @@
         .lab-name a {
             color: white;
         }
-        #about {
+        #research {
             text-align: center;
             margin: 20px 0;
             width: 80%;
@@ -43,28 +43,45 @@
             margin-right: auto;
         }
 
-        #about h2 {
+        #research h2 {
             margin-top: 0;
             font-size: 24px;
             font-weight: bold;
         }
-        #about h3 {
-            margin-top: 0;
+        #research h3 {
+            margin-top: 5px;
             font-size: 20px;
             text-align: left;
             margin-left: 200px;
             position: relative;
         }
-        #about h3::before {
+        #research h3::before {
             content: "\25A0"; /* 黒い四角のUnicodeコード */
             margin-right: 5px; /* 黒い四角とテキストの間隔を調整 */
             color: black; /* 黒い四角の色 */
         }
-        #about p {
+
+        #research h4 {
+            margin-top: 5px;
+            font-size: 20px;
             text-align: left;
-            margin-left: 100px;
-            margin-bottom: 10px;
+            margin-left: 200px;
+            position: relative;
         }
+        #research p {
+            text-align: left;
+            margin-left: 200px;
+            margin-bottom: 10px;
+            position: relative;
+            font-size: 18x;
+        }
+        #research ul {
+            text-align: left;
+            margin-left: 200px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
         footer {
             text-align: center;
             background-color: #333;
@@ -75,14 +92,7 @@
             width: 100%;
             margin-top: 20px;
         }
-        #map {
-            width: 80%;
-            margin: 0 auto;
-            height: 400px;
-            overflow: hidden;
-            margin-top: 20px;
-            margin-bottom: 30px;
-        }
+
     </style>
 </head>
 <body>
@@ -95,10 +105,16 @@
     <a href="publication.html">Publication</a>
     <a href="access.html">Access</a>
 </header>
-<div id="about">
-    <h2>研究室紹介</h2>
-    <p><b>京都工芸繊維大学 情報工学課程・専攻 知能ソフトウェア工学研究室です.</b><br><br>
-        近年，多くの開発者がすでに人工知能（AI）搭載のコーディングツールを活用したり，開発向けのAIツールに対して好意的な意見を持つなど，AI技術の普及とともに，ソフトウェア開発のパラダイムが大きく変化しています．当研究室では，ソフトウェア工学と人工知能の両者に焦点を当て，AIを利用したソフトウェアシステムを実現するための新しい工学技術およびツールの開発に関する研究と，AI技術を用いて従来のシステムエンジニアリング実践を自動化する研究を行っています．
+
+<div id="research">
+    <h2>研究紹介</h2>
+    <p>本研究室では，ソフトウェア工学と人工知能（AI）の両者に焦点を当て，以下の2つの研究テーマなどを取り組んでいます</p>
+    <ul>
+        <li>深層学習モデルを⽤いて従来のシステムエンジニアリング実践を⾃動化する研究(AI4SE)</li>
+        <li>深AIを利⽤したソフトウェアシステムを実現するための新しい⼯学技術およびツールの開発する研究(SE4AI)</li>
+    </ul>
+    <p>
+        また，これらの研究により、ソフトウェア開発現場における生産性と品質の大幅な向上を目指すとともに，AIを活用したより優れたソフトウェアの実現を目指しています．
     </p>
 
 </div>

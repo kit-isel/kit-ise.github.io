@@ -54,6 +54,7 @@
             text-align: left;
             margin-left: 200px;
             position: relative;
+            margin-bottom: 5px;
         }
         #member h3::before {
             content: "\25A0"; /* 黒い四角のUnicodeコード */
@@ -67,14 +68,23 @@
             text-align: left;
             margin-left: 200px;
             position: relative;
+
         }
         #member p {
             text-align: left;
             margin-left: 200px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             position: relative;
             font-size: 18x;
         }
+        #member ul {
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 0; /* 上のスペースを0に設定 */
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 18x;
+}
         footer {
             text-align: center;
             background-color: #333;
@@ -103,18 +113,20 @@
 <div id="member">
     <h2>メンバー</h2>
     <h3>スタッフ</h3>
-    <p>崔 恩瀞</p>
+    <p><a href="https://researchmap.jp/ejchoi" target="_blank">崔 恩瀞</a></p>
     <h3>学生</h3>
-    <h4>博士前期課程</h4>
     <p>
     <b>M1</b><br>
     宮永 翔多
-    <b>B4</b><br>
-<ul>
-    <li>伊藤 主馬</li>
-    <li>井上 智博</li>
-    <li>大倉 涼介</li>
-</ul><br>
+    </p>
+<p style="margin-top: 0; margin-bottom: 10px;">
+    <b>B4</b>&nbsp; <!-- &nbsp; はノーブレークスペースを表します -->
+    <br>
+    <ul>
+        <li>伊藤 主馬</li>
+        <li>井上 智博</li>
+        <li>大倉 涼介</li>
+    </ul>
 </p>
 </div>
 
